@@ -7,7 +7,9 @@ html , body , p  {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 7px;
+  grid-template-rows: auto;
+  grid-area: auto ;
+  grid-gap: 2px;
 }
 
 .header {
